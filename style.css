@@ -1,0 +1,36 @@
+img{
+    width:240px;
+    height: 240px;
+border-radius: 50%;
+}
+body{
+    background-color: beige;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    font-family: arial;
+}
+
+.tarjeta{
+    box-shadow: 0 0 15px rgba(0, 0, 0,3 );
+    border-radius: 0.5rem;
+    width: 300px;
+    text-align: center;
+    background-color: rgb(245, 234, 227);
+    padding: 1rem;
+}
+
+button{
+    background-color: rgb(152, 240, 240);
+    font-size: 1.2rem;
+    color: white;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    border-radius: 0.5em;
+}
+
+button :hover{
+background-color: rgb(95, 201, 243);
+}
